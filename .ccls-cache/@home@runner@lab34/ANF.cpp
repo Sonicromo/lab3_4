@@ -8,6 +8,8 @@ ANF::ANF(){
 	Fs = 0;
 	canal = 0;
 	lectura = 0;
+  lect = 0;
+  ack = 0;
 }
 void ANF::captura(){
 	AN :: captura();
